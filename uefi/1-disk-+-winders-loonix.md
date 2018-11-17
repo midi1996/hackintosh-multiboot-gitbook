@@ -4,7 +4,7 @@ For this recipe you'll need:
 
 1. One USB drive
 2. One Computer
-3. One drive
+3. One disk drive
 4. A Linux/Windows installed on the drive
 5. One Gparted amd64 ISO from here: [https://gparted.org/download.php](https://gparted.org/download.php)
 6. Some time
@@ -20,7 +20,7 @@ Now let's get started to mix the whole thing :\)
    2. For linux: [https://unix.stackexchange.com/a/148366](https://unix.stackexchange.com/a/148366)
    3. If not, you'll have to convert it to UEFI:
       1. for windows [https://docs.microsoft.com/en-us/windows/deployment/mbr-to-gpt](https://docs.microsoft.com/en-us/windows/deployment/mbr-to-gpt) \(I'll make a guide on how to do it manually later one, it's ez\)
-      2. for linux: add a partition \(anywhere on the disk, 200MB size, FAT32, flagged as "boot" or type as EF00\) and re-install grub-efi \(at this point you can just make another partition and install macOS lol
+      2. for linux: add a partition \(anywhere on the disk, 200MB size, FAT32, flagged as "boot" or type as EF00\) and re-install grub-efi \(at this point you can just make another partition and install macOS lol\) and make sure the drive is GPT \(you can convert it with `gdisk`\)
 3. Make a bootable disk for Gparted ISO:
    1. Format your USB as FAT32
    2. Mount the ISO:
@@ -32,9 +32,9 @@ Now let's get started to mix the whole thing :\)
 5. When you get to the Gparted screen, make sure you select your disk on the right side of the window
    1. Delete the MSR partition \(it's usually 16MB and Unformatted with a ⚠️icon\) \[WINDOWS ONLY\]
 6. Pin point your EFI partition:
-   1. it has 100MB \(if it has more than 200MB, then just resize your windows partition and format it for macOS, you dont need to resize the EFI\)
+   1. it has 100MB \(if it has more than 200MB, then just resize your windows partition and format it for macOS, you dont need to resize the EFI, go directly to 12.\)
    2. it's flagged as `boot`
-   3. fa32
+   3. fat32
 7. Select the partition in front of it \(usually Windows/Linux partition\)
 8. Select Resize/Move
    1. Resize it from the Left or type in the resizing amount in `Free space preceding` by 100MiB
@@ -52,7 +52,7 @@ Now let's get started to mix the whole thing :\)
     1. File System: hfs/hfsplus \(if not, then fat32\)
     2. Name/Label: whatever you want
     3. Confirm by pressing Add
-15. Apply and wait for it to do its work.
+15. Apply and wait for it to do its work \(it will take some time on HDDs, and a lot less on SSDs\)
 
 You're now ready to boot macOS installer and do the rest from there, make sure you dont mess up by selecting the wrong partition.
 
