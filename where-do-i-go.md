@@ -16,3 +16,18 @@ Fix Clovy Clovy to Fix Clover
 
 InS - QnA, a FAQ on some common issues.
 
+## Credit
+
+Sources for this guide and credits:
+
+* fusion71au for his guides and help
+* InsanelyMac to host stuff
+* Apple for their crappyexpensive laptops that made us hackintosh
+* Every user than helped in the links I gave above
+* /u/CorpNewt for this gitbook space and some insight
+* /r/Hackintosh Discord server, because why not?
+
+This guide will be updated for more information later.
+
+GOOD LUCK!
+
