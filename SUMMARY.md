@@ -9,6 +9,8 @@
 * [2 Disks Many OSes](uefi/untitled-2.md)
 * [1 Disk + Winders/Loonix](uefi/1-disk-+-winders-loonix.md)
 * [1 Disk + No OS/macOS](uefi/1-disk-+-no-os-macos.md)
+* [Fix Clovy Clovy](uefi/fix-clovy-clovy.md)
+* [InS - QnA](uefi/ins-qna.md)
 
 ## Legacy
 

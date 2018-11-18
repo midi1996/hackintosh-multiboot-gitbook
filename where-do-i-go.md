@@ -10,3 +10,9 @@ You can check the UEFI section for your work, read `UEFI + GPT = BFF` first then
 
 You go the other Legacy section to get it working too.
 
+## Other sections:
+
+Fix Clovy Clovy to Fix Clover
+
+InS - QnA, a FAQ on some common issues.
+
