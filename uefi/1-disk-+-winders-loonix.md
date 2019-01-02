@@ -14,7 +14,7 @@ For this recipe you'll need:
 
 Now let's get started to mix the whole thing :\)
 
-1. Backup your important data. I take no responsibility of a disastrous loss, a missing assignment, an unfinished homework, a thermonuclear war plan or your grandma's old cat pics.
+1. **Backup your important data.** I take no responsibility of a disastrous loss, a missing assignment, an unfinished homework, a thermonuclear war plan or your grandma's old cat pics.
 2. Make sure Windows or Linux are running in UEFI mode. To check
    1. For windows: [https://blogs.technet.microsoft.com/home\_is\_where\_i\_lay\_my\_head/2012/10/02/how-to-check-in-windows-if-you-are-using-uefi/](https://blogs.technet.microsoft.com/home_is_where_i_lay_my_head/2012/10/02/how-to-check-in-windows-if-you-are-using-uefi/)
    2. For linux: [https://unix.stackexchange.com/a/148366](https://unix.stackexchange.com/a/148366)
@@ -31,7 +31,7 @@ Now let's get started to mix the whole thing :\)
 4. Boot the USB
 5. When you get to the Gparted screen, make sure you select your disk on the right side of the window
    1. Delete the MSR partition \(it's usually 16MB and Unformatted with a ⚠️icon\) \[WINDOWS ONLY\]
-6. Pin point your EFI partition:
+6. Pinpoint your EFI partition:
    1. it has 100MB \(if it has more than 200MB, then just resize your windows partition and format it for macOS, you dont need to resize the EFI, go directly to 12.\)
    2. it's flagged as `boot`
    3. fat32
@@ -39,20 +39,22 @@ Now let's get started to mix the whole thing :\)
 8. Select Resize/Move
    1. Resize it from the Left or type in the resizing amount in `Free space preceding` by 100MiB
    2. Confirm by pressing Resize/Move
-9. Select your EFI partition
-10. Select Resize/Move
+9. **To this point no changes has been made, you can still go back and backup your data**
+10. **Apply** - This will take some time - if anything happens to your data, you're responsible of it.
+11. Select your EFI partition
+12. Select Resize/Move
     1. Fill in the space on the right
     2. Confirm by pressing Resize/Move
-11. To this point no changes has been made, you can still go back and backup your data
-12. Select your windows partition again
-13. Select Resize/Move
+13. **Apply** - this should be fast
+14. Select your windows partition again
+15. Select Resize/Move
     1. Resize it from the Right or type in the resizing amount in `Free space following` by at least 60GiB \(or 61440MiB\): THIS is your macOS partition size, resize it wisely, you'll have hard time doing so later one as it's not in the beginning of the disk.
     2. Confirm by pressing Resize/Move
-14. Right click on the blank space &gt; New partition
+16. Right click on the blank space &gt; New partition
     1. File System: hfs/hfsplus \(if not, then fat32\)
     2. Name/Label: whatever you want
     3. Confirm by pressing Add
-15. Apply and wait for it to do its work \(it will take some time on HDDs, and a lot less on SSDs\)
+17. **Apply** and wait for it to do its work \(it will take some time on HDDs, and a lot less on SSDs, that is if there is any data in the end of the windows partition\)
 
 You're now ready to boot macOS installer and do the rest from there, make sure you dont mess up by selecting the wrong partition.
 
