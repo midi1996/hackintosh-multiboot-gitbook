@@ -1,6 +1,6 @@
 # Multiboot baby...
 
-So a lot of people here \(and there\) think that multibooting is quite hard with macOS, which actually the case with some systems \(stupid mobos\) and quite tricky in legacy mode, but as far as you're using UEFI, it's very _**VERY**_ easy.
+A lot of people here \(and there\) think that **multibooting** is quite hard with macOS, which actually the case with some systems \(stupid mobos\) and quite tricky in legacy mode, but as far as you're using UEFI, it's very _**VERY**_ easy.
 
 To begin with, I will start with UEFI mode, which is the easiest setup to do. This guide will cover different situations, and I will try to implement linux too for people who are into that. I don't know if I will put a legacy dualboot \(with GPT, and not MBR\) until I do some extensive tests.
 

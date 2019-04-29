@@ -2,11 +2,11 @@
 
 I made 2 sections here for a reason:
 
-## UEFI BOIz
+## UEFI bois
 
 You can check the UEFI section for your work, read `UEFI + GPT = BFF` first then go to your actual installation section.
 
-## BIOS \(Legacy\) BOIz
+## BIOS \(Legacy\) bois
 
 You go the other Legacy section to get it working too.
 
@@ -23,7 +23,6 @@ Sources for this guide and credits:
 * fusion71au for his guides and help
 * InsanelyMac to host stuff
 * Apple for their crappyexpensive laptops that made us hackintosh
-* Every user than helped in the links I gave above
 * /u/CorpNewt for this gitbook space and some insight
 * /r/Hackintosh Discord server, because why not?
 
