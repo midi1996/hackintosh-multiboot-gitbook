@@ -11,6 +11,7 @@ For this recipe you'll need:
 7. A Good pinch of backed up data \(your loss if you mess up\)
 8. Some brains
 9. A Google/DuckDuckGo will always be handy and welcomed in the mix
+10. **Important:** your data will probably get nuked if you did something weird, and to prevent such loss, make sure you backup. Also, all the resizing **must** be used with _**Align to = None**_ \(instead of Cylinders or Megabyte\). 
 
 Now let's get started to mix the whole thing :\)
 
