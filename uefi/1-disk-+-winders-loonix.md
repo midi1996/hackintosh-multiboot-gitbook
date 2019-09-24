@@ -25,15 +25,15 @@ Now let's get started to mix the whole thing :\)
 3. Make a bootable disk for Gparted ISO:
    1. Format your USB as FAT32
    2. Mount the ISO:
-      1. Double click on windows
-      2. You can use `gnome-disks` or `mount -o loop` to mount
+      1. Windows : Double click
+      2. Linux : You can use `gnome-disks` or `mount -o loop` to mount
    3. Copy the insides of the ISO into the USB
    4. You're done.
 4. Boot the USB
 5. When you get to the Gparted screen, make sure you select your disk on the right side of the window
    1. Delete the MSR partition \(it's usually 16MB and Unformatted with a ⚠️icon\) \[WINDOWS ONLY\]
 6. Pinpoint your EFI partition:
-   1. it has 100MB \(if it has more than 200MB, then just resize your windows partition and format it for macOS, you dont need to resize the EFI, go directly to 12.\)
+   1. it has 100MB \(if it has more than 200MB, then just resize your windows partition and format it for macOS, you don't need to resize the EFI, go directly to 12.\)
    2. it's flagged as `boot`
    3. fat32
 7. Select the partition in front of it \(usually Windows/Linux partition\)
